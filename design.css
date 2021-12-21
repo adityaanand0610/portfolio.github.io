@@ -9,5 +9,33 @@ height: 100vh;
 position: relative;
 overflow: hidden;
 background: linear-gradient(to bottom,#e71212, #d11d53);
-
 }
+nav{
+    width: 80% ;
+    position: sticky;
+    margin : 20px auto;
+     z-index: 1;
+     display : flex;
+     align-items:center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width:auto;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
